@@ -18,17 +18,17 @@ languages:
         - identifier: about
           name: "Обо мне"
           title: "Обо мне"
-          url: /about/
+          url: /ru/about/
           weight: -110
         - identifier: posts
           name: "Заметки"
           title: "Заметки"
-          url: /post/
+          url: /ru/post/
           weight: -100
         - identifier: categories
           name: "Категории"
           title: "Категории"
-          url: /categories/
+          url: /ru/categories/
           weight: -90
         - identifier: english
           name: "to English"
