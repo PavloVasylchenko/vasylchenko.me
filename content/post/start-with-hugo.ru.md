@@ -1,6 +1,6 @@
 ---
 title: "Создание блога с помощью Hugo"
-date: 2020-09-27T19:47:36Z
+date: 2020-10-19T19:00:00Z
 categories: 
     - "Инструкции"
 draft: false

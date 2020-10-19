@@ -1,6 +1,6 @@
 ---
 title: "Getting started with Hugo"
-date: 2020-09-27T19:47:36Z
+date: 2020-10-19T19:00:00Z
 categories: 
     - "Manuals"
 draft: false
