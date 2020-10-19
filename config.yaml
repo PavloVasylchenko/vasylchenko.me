@@ -1,0 +1,115 @@
+baseURL: "https://vasylchenko.me"
+languageCode: "en-US"
+DefaultContentLanguage: "en"
+theme: "devise"
+relativeURLs: true
+enableEmoji: true
+googleAnalytics: ""
+enableRobotsTXT: true
+copyright: "&copy; Copyright 2020, Pavlo Vasylchenko"
+
+languages:
+  ru:
+    title: "Павел Васильченко персональная страница"
+    weight: 2
+    # Main menu items
+    menu:
+      main:
+        - identifier: about
+          name: "Обо мне"
+          title: "Обо мне"
+          url: /about/
+          weight: -110
+        - identifier: posts
+          name: "Заметки"
+          title: "Заметки"
+          url: /post/
+          weight: -100
+        - identifier: categories
+          name: "Категории"
+          title: "Категории"
+          url: /categories/
+          weight: -90
+        - identifier: english
+          name: "to English"
+          title: "to English"
+          url: /en/
+          weight: -80
+    params:
+      description: Персональная страница
+      header_title: Павел Васильченко
+      header_subtitle: 'Backend (Java) Team Lead | Киев, Украина'
+      home_image: /images/avatar.jpg
+      recent_posts: 5
+      mainSections:
+        - posts
+        - post
+        - blog
+      style:
+        backgroundColor: '#f8f9fa'
+        fontColor: '#212529'
+      social:
+        - fa_icon: fab fa-linkedin-in fa-1x
+          href: 'https://www.linkedin.com/in/pvasilchenko/'
+        - fa_icon: fab fa-github fa-1x
+          href: 'http://github.com/PavloVasylchenko'
+        - fa_icon: fab fa-twitter fa-1x
+          href: 'https://twitter.com/pvvvvv_'
+        - fa_icon: fab fa-medium fa-1x
+          href: 'https://medium.com/@vasylchenko'
+        - fa_icon: fab fa-telegram fa-1x
+          href: 'https://t.me/pvvvvv'
+  en:
+    title: "Pavlo Vasylchenko Home Page"
+    weight: 1
+
+    # Main menu items
+    menu:
+      main:
+        - identifier: about
+          name: About
+          title: About
+          url: /about/
+          weight: -110
+        - identifier: posts
+          name: Posts
+          title: Posts
+          url: /post/
+          weight: -100
+        - identifier: categories
+          name: Categories
+          title: Categories
+          url: /categories/
+          weight: -90
+        - identifier: russian
+          name: "на Русский"
+          title: "на Русский"
+          url: /ru/
+          weight: -80
+
+    params:
+      description: Personal Home Page
+      header_title: Pavlo Vasylchenko
+      header_subtitle: 'Backend (Java) Team Lead | Kyiv, Ukraine'
+      home_image: /images/avatar.jpg
+      recent_posts: 5
+      mainSections:
+        - posts
+        - post
+        - blog
+      style:
+        backgroundColor: '#f8f9fa'
+        fontColor: '#212529'
+      social:
+        - fa_icon: fab fa-linkedin-in fa-1x
+          href: 'https://www.linkedin.com/in/pvasilchenko/'
+        - fa_icon: fab fa-github fa-1x
+          href: 'http://github.com/PavloVasylchenko'
+        - fa_icon: fab fa-twitter fa-1x
+          href: 'https://twitter.com/pvvvvv_'
+        - fa_icon: fab fa-medium fa-1x
+          href: 'https://medium.com/@vasylchenko'
+        - fa_icon: fab fa-telegram fa-1x
+          href: 'https://t.me/pvvvvv'
+
+
