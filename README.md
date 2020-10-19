@@ -1,3 +1,6 @@
+After clone submodule need to be updated:  
+`git submodule update --recursive --init --remote`
+
 Build website:  
 `docker run --rm -it -v $(pwd):/src -p 1313:1313 klakegg/hugo:ext`
 
