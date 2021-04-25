@@ -10,7 +10,7 @@ Run in nginx for testing:
 Create new page:  
 `docker run --rm -it -v $(pwd):/src klakegg/hugo:ext new post/start-with-hugo.md`
 
-Server
-`git -C 'vasylchenko.me' pull`
-`rm -rf /root/traefik/nginx/static/*`
-`docker run --rm -it -v $(pwd)/vasylchenko.me:/src -v /root/traefik/nginx/static:/src/public klakegg/hugo:ext`
+Server  
+`git -C 'vasylchenko.me' pull`  
+`rm -rf /root/traefik/nginx/static/*`  
+`docker run --rm -it -v $(pwd)/vasylchenko.me:/src -v /root/traefik/nginx/static:/src/public klakegg/hugo:ext`  
