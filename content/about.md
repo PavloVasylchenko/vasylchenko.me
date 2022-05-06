@@ -4,7 +4,7 @@ date: 2020-09-27T19:31:36Z
 draft: false
 ---
 
-I am Team Lead with 12 years of experience in software engineering. 
+I am Engineering Manager with 13 years of experience in software engineering. 
 
 Most of all I like to gain new knowledge, set goals and overcome challenges. 
 
