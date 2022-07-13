@@ -29,5 +29,5 @@ jobs:
         key: ${{ secrets.BLOG_KEY }}
         source: "public/*"
         target: ${{ secrets.BLOG_PATH }}
-        override: true
+        overwrite: true
         strip_components: 1
