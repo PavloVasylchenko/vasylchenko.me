@@ -1,0 +1,33 @@
+name: Build and Deploy
+
+on:
+  push:
+    branches: [ "master" ]
+  pull_request:
+    branches: [ "master" ]
+
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Check out the repo
+      uses: actions/checkout@v2
+      with:
+        submodules: recursive
+    - name: Echo
+      run: echo "${{ github.workspace }}";
+    - name: hugo
+      uses: klakegg/actions-hugo@1.0.0
+      with:
+        image: ext-ubuntu
+    - name: deploy
+      uses: appleboy/scp-action@master
+      with:
+        host: ${{ secrets.BLOG_HOST }}
+        username: ${{ secrets.BLOG_USER }}
+        key: ${{ secrets.BLOG_KEY }}
+        source: "public/*"
+        target: ${{ secrets.BLOG_PATH }}
+        override: true
+        strip_components: 1
