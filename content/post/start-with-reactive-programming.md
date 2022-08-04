@@ -16,10 +16,10 @@ Often people use Java streams since they are similar and also related to functio
 Few months ago I decided to watch course on Udemy related to project reactor to collect all thoughts together and find some new ideas.
 If general it was very interesting and useful to watch these courses. It will be the most useful for developers new to reactive approach.
 
-As result I decided to prepare project “game of life” based on reactive streams. It is good case for reactive project because you can create unlimited generator and limit it later by consuming it.
+As result, I decided to prepare project “game of life” based on reactive streams. It is good case for reactive project because you can create unlimited generator and limit it later by consuming it.
 Here is project link https://github.com/PavloVasylchenko/GameOfLife
 
-So we have following structure:
+So we have the following structure:
 CellState which is enum and it shows if cell dead or alive
 Game class which contains main logic an game cycle generator
 UI class which is responsible for printing field to console
