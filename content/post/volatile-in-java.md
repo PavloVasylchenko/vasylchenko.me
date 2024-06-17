@@ -2,8 +2,8 @@
 title: "Understanding the volatile Keyword in Java"
 date: 2024-06-17T10:00:00Z
 categories: 
-    - "Java"
-    - "Concurrency"
+  - "Java"
+  - "Concurrency"
 draft: false
 ---
 
