@@ -1,8 +1,9 @@
 ---
 title: "Розуміння ключового слова volatile в Java"
 date: 2024-06-17T10:00:00Z
-categories: 
-    - "Manuals"
+categories:
+  - "Java"
+  - "Concurrency"
 draft: false
 ---
 
