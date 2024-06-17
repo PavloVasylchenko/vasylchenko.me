@@ -17,10 +17,6 @@ jobs:
         submodules: recursive
     - name: Echo
       run: echo "${{ github.workspace }}";
-    - name: Echo-Env1
-      run: echo "${{ PATH }}";
-    - name: Echo-Env2
-      run: echo "x$PATH";
     - name: hugo
       uses: klakegg/actions-hugo@1.0.0
       with:
