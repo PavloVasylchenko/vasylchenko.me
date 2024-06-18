@@ -1,12 +1,13 @@
 ---
 title: "Understanding the volatile Keyword in Java"
 date: 2024-06-17T10:00:00Z
-categories: 
+tags:
   - "Java"
   - "Concurrency"
+categories:
+  - "Java/Concurrency"
 draft: false
 ---
-
 
 The `volatile` keyword in Java is used to indicate that a variable’s value will be modified by different threads. When a variable is declared as volatile, it ensures that the value of the variable is always read from the main memory, not from the thread’s local cache. This is crucial in a multithreaded environment to prevent threads from using stale or incorrect values.
 
