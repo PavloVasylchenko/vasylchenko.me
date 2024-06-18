@@ -1,9 +1,11 @@
 ---
-title: "Атомарні класи в Java"
+title: "Атомарні операції в Java"
 date: 2024-06-18T11:15:29Z
+tags:
+   - Java
+   - Concurrency
 categories:
-  - "Java"
-  - "Concurrency"
+   - "Java/Concurrency"
 draft: false
 ---
 
