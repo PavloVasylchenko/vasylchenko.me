@@ -7,7 +7,9 @@ enableEmoji: true
 googleAnalytics: ""
 enableRobotsTXT: true
 copyright: "&copy; Copyright 2024, Pavlo Vasylchenko"
-
+taxonomies:
+  - tag : "tags"
+  - category: "categories"
 languages:
   ua:
     title: "Павло Васильченко персональна сторінка"
