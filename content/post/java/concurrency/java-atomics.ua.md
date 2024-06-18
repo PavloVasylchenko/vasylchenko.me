@@ -2,8 +2,8 @@
 title: "Атомарні операції в Java"
 date: 2024-06-18T11:15:29Z
 tags:
-   - Java
-   - Concurrency
+   - "Java"
+   - "Concurrency"
 categories:
    - "Java/Concurrency"
 draft: false

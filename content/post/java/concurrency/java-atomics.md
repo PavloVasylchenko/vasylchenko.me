@@ -2,8 +2,8 @@
 title: "Atomics in Java"
 date: 2024-06-18T11:12:01Z
 tags:
-  - Java
-  - Concurrency
+  - "Java"
+  - "Concurrency"
 categories:
   - "Java/Concurrency"
 draft: false

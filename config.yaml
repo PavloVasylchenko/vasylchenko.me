@@ -30,11 +30,16 @@ languages:
           title: "Категорії"
           url: /ua/categories/
           weight: -90
+        - identifier: tags
+          name: "Теги"
+          title: "Теги"
+          url: /ua/tags/
+          weight: -80
         - identifier: english
           name: "to English"
           title: "to English"
           url: /en/
-          weight: -80
+          weight: -70
     params:
       description: Персональна сторінка
       header_title: Павло Васильченко
@@ -81,11 +86,16 @@ languages:
           title: Categories
           url: /categories/
           weight: -90
+        - identifier: tags
+          name: Tags
+          title: Tags
+          url: /tags/
+          weight: -80
         - identifier: ukrainian
           name: "Українською"
           title: "Українською"
           url: /ua/
-          weight: -80
+          weight: -70
 
     params:
       description: Personal Home Page
