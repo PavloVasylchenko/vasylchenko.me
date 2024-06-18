@@ -1,6 +1,6 @@
 ---
 title: "Atomics in Java"
-date: 2024-18-19T11:12:01Z
+date: 2024-06-18T11:12:01Z
 categories:
   - "Java"
   - "Concurrency"
