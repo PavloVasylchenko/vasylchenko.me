@@ -1,6 +1,6 @@
 ---
 title: "Атомарні класи в Java"
-date: 2024-18-19T11:15:29Z
+date: 2024-06-18T11:15:29Z
 categories:
   - "Java"
   - "Concurrency"
