@@ -6,7 +6,7 @@ relativeURLs: true
 enableEmoji: true
 googleAnalytics: ""
 enableRobotsTXT: true
-copyright: "&copy; Copyright 2024, Pavlo Vasylchenko"
+copyright: "&copy; Copyright 2025, Pavlo Vasylchenko"
 taxonomies:
   tag: "tags"
   category: "categories"
@@ -45,7 +45,7 @@ languages:
     params:
       description: Персональна сторінка
       header_title: Павло Васильченко
-      header_subtitle: 'Backend (Java) Team Lead'
+      header_subtitle: 'Principal Member of Technical Staff'
       home_image: /images/avatar.jpg
       recent_posts: 5
       mainSections:
@@ -102,7 +102,7 @@ languages:
     params:
       description: Personal Home Page
       header_title: Pavlo Vasylchenko
-      header_subtitle: 'Backend (Java) Engineering Manager'
+      header_subtitle: 'Principal Member of Technical Staff'
       home_image: /images/avatar.jpg
       recent_posts: 5
       mainSections:
