@@ -20,9 +20,9 @@ jobs:
 
       # Install Hugo (extended) via peaceiris
       - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
+        uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: '0.128.2'  # set to the hugo version
+          hugo-version: '0.150.1'  # set to the hugo version
           extended: true
 
       # Build the site
