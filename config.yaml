@@ -6,7 +6,7 @@ relativeURLs: true
 enableEmoji: true
 googleAnalytics: ""
 enableRobotsTXT: true
-copyright: "&copy; Copyright 2025, Pavlo Vasylchenko111"
+copyright: "&copy; Copyright 2025, Pavlo Vasylchenko"
 taxonomies:
   tag: "tags"
   category: "categories"
