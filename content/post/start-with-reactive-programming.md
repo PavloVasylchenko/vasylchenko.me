@@ -11,7 +11,7 @@ This framework becomes popular last days. Spring allow to use it instead of serv
 Also clients more and more often support reactive api nowadays. Databases allow connect via r2dbc and reactive drivers. 
 I use project reactor in my modules more and more often. 
 
-Often people use Java streams since they are similar and also related to functional programming but their usage is limited. They might be consumed only one time, so devs rarely return something like Stream<String> from functions. Usually they put all pipeline in same function what is convenient for small data processing but eventually it is blocking calls.
+Often people use Java streams since they are similar and also related to functional programming but their usage is limited. They might be consumed only one time, so devs rarely return something like `Stream<String>` from functions. Usually they put all pipeline in same function what is convenient for small data processing but eventually it is blocking calls.
 
 Few months ago I decided to watch course on Udemy related to project reactor to collect all thoughts together and find some new ideas.
 If general it was very interesting and useful to watch these courses. It will be the most useful for developers new to reactive approach.
