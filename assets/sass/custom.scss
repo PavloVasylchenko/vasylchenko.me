@@ -104,6 +104,23 @@ a.language-switcher__option:focus-visible {
   cursor: not-allowed;
 }
 
+article {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+article table {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+article pre {
+  max-width: 100%;
+  overflow-x: auto;
+}
+
 @media (max-width: 575.98px) {
   .header-navigation-row {
     justify-content: center;

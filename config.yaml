@@ -116,4 +116,183 @@ languages:
         #- fa_icon: fab fa-telegram fa-1x
         #  href: 'https://t.me/pvvvvv'
 
+  ru:
+    label: "Русский"
+    locale: "ru-RU"
+    title: "Персональная страница Павло Васильченко"
+    weight: 3
+    menu:
+      main:
+        - identifier: about
+          name: "Обо мне"
+          title: "Обо мне"
+          url: /ru/about/
+          weight: -110
+        - identifier: posts
+          name: "Статьи"
+          title: "Статьи"
+          url: /ru/post/
+          weight: -100
+        - identifier: categories
+          name: "Категории"
+          title: "Категории"
+          url: /ru/categories/
+          weight: -90
+        - identifier: tags
+          name: "Теги"
+          title: "Теги"
+          url: /ru/tags/
+          weight: -80
+    params:
+      description: Персональная страница
+      header_title: Павло Васильченко
+      header_subtitle: 'Principal Member of Technical Staff'
+      home_image: /images/avatar.jpg
+      recent_posts: 5
+      mainSections: [posts, post, blog]
+      style:
+        backgroundColor: '#f8f9fa'
+        fontColor: '#212529'
+      social:
+        - fa_icon: fab fa-linkedin-in fa-1x
+          href: 'https://www.linkedin.com/in/pvasilchenko/'
+        - fa_icon: fab fa-github fa-1x
+          href: 'http://github.com/PavloVasylchenko'
+        - fa_icon: fab fa-medium fa-1x
+          href: 'https://medium.com/@vasylchenko'
+
+  es:
+    label: "Español"
+    locale: "es-ES"
+    title: "Página personal de Pavlo Vasylchenko"
+    weight: 4
+    menu:
+      main:
+        - identifier: about
+          name: "Sobre mí"
+          title: "Sobre mí"
+          url: /es/about/
+          weight: -110
+        - identifier: posts
+          name: "Artículos"
+          title: "Artículos"
+          url: /es/post/
+          weight: -100
+        - identifier: categories
+          name: "Categorías"
+          title: "Categorías"
+          url: /es/categories/
+          weight: -90
+        - identifier: tags
+          name: "Etiquetas"
+          title: "Etiquetas"
+          url: /es/tags/
+          weight: -80
+    params:
+      description: Página personal
+      header_title: Pavlo Vasylchenko
+      header_subtitle: 'Principal Member of Technical Staff'
+      home_image: /images/avatar.jpg
+      recent_posts: 5
+      mainSections: [posts, post, blog]
+      style:
+        backgroundColor: '#f8f9fa'
+        fontColor: '#212529'
+      social:
+        - fa_icon: fab fa-linkedin-in fa-1x
+          href: 'https://www.linkedin.com/in/pvasilchenko/'
+        - fa_icon: fab fa-github fa-1x
+          href: 'http://github.com/PavloVasylchenko'
+        - fa_icon: fab fa-medium fa-1x
+          href: 'https://medium.com/@vasylchenko'
+
+  fr:
+    label: "Français"
+    locale: "fr-FR"
+    title: "Page personnelle de Pavlo Vasylchenko"
+    weight: 5
+    menu:
+      main:
+        - identifier: about
+          name: "À propos"
+          title: "À propos"
+          url: /fr/about/
+          weight: -110
+        - identifier: posts
+          name: "Articles"
+          title: "Articles"
+          url: /fr/post/
+          weight: -100
+        - identifier: categories
+          name: "Catégories"
+          title: "Catégories"
+          url: /fr/categories/
+          weight: -90
+        - identifier: tags
+          name: "Étiquettes"
+          title: "Étiquettes"
+          url: /fr/tags/
+          weight: -80
+    params:
+      description: Page personnelle
+      header_title: Pavlo Vasylchenko
+      header_subtitle: 'Principal Member of Technical Staff'
+      home_image: /images/avatar.jpg
+      recent_posts: 5
+      mainSections: [posts, post, blog]
+      style:
+        backgroundColor: '#f8f9fa'
+        fontColor: '#212529'
+      social:
+        - fa_icon: fab fa-linkedin-in fa-1x
+          href: 'https://www.linkedin.com/in/pvasilchenko/'
+        - fa_icon: fab fa-github fa-1x
+          href: 'http://github.com/PavloVasylchenko'
+        - fa_icon: fab fa-medium fa-1x
+          href: 'https://medium.com/@vasylchenko'
+
+  de:
+    label: "Deutsch"
+    locale: "de-DE"
+    title: "Persönliche Seite von Pavlo Vasylchenko"
+    weight: 6
+    menu:
+      main:
+        - identifier: about
+          name: "Über mich"
+          title: "Über mich"
+          url: /de/about/
+          weight: -110
+        - identifier: posts
+          name: "Beiträge"
+          title: "Beiträge"
+          url: /de/post/
+          weight: -100
+        - identifier: categories
+          name: "Kategorien"
+          title: "Kategorien"
+          url: /de/categories/
+          weight: -90
+        - identifier: tags
+          name: "Tags"
+          title: "Tags"
+          url: /de/tags/
+          weight: -80
+    params:
+      description: Persönliche Seite
+      header_title: Pavlo Vasylchenko
+      header_subtitle: 'Principal Member of Technical Staff'
+      home_image: /images/avatar.jpg
+      recent_posts: 5
+      mainSections: [posts, post, blog]
+      style:
+        backgroundColor: '#f8f9fa'
+        fontColor: '#212529'
+      social:
+        - fa_icon: fab fa-linkedin-in fa-1x
+          href: 'https://www.linkedin.com/in/pvasilchenko/'
+        - fa_icon: fab fa-github fa-1x
+          href: 'http://github.com/PavloVasylchenko'
+        - fa_icon: fab fa-medium fa-1x
+          href: 'https://medium.com/@vasylchenko'
 
