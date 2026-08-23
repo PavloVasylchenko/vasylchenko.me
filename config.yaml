@@ -1,5 +1,4 @@
 baseURL: "https://vasylchenko.me"
-languageCode: "en-US"
 DefaultContentLanguage: "en"
 theme: "devise"
 relativeURLs: true
@@ -12,6 +11,8 @@ taxonomies:
   category: "categories"
 languages:
   ua:
+    label: "Українська"
+    locale: "uk-UA"
     title: "Павло Васильченко персональна сторінка"
     weight: 2
     # Main menu items
@@ -67,6 +68,8 @@ languages:
         #- fa_icon: fab fa-telegram fa-1x
         #  href: 'https://t.me/pvvvvv'
   en:
+    label: "English"
+    locale: "en-US"
     title: "Pavlo Vasylchenko Home Page"
     weight: 1
 
