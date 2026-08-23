@@ -1,0 +1,39 @@
+{{ $translations := .AllTranslations }}
+{{ $currentLanguage := .Language.Name }}
+{{ $selectorLabel := i18n "languageSelector" }}
+{{ $unavailableLabel := i18n "translationUnavailable" }}
+
+<details class="language-switcher">
+    <summary aria-label="{{ $selectorLabel }}: {{ or .Language.Label .Language.Name }}">
+        <i class="fas fa-globe" aria-hidden="true"></i>
+        <span>{{ or .Language.Label .Language.Name }}</span>
+        <i class="fas fa-chevron-down language-switcher__chevron" aria-hidden="true"></i>
+    </summary>
+    <ul class="language-switcher__menu" aria-label="{{ $selectorLabel }}">
+        {{ range hugo.Sites }}
+            {{ $language := .Language }}
+            {{ $matches := where $translations "Language.Name" $language.Name }}
+            <li>
+                {{ if eq $language.Name $currentLanguage }}
+                    <span class="language-switcher__option is-current" lang="{{ $language.Locale }}" aria-current="page">
+                        {{ or $language.Label $language.Name }}
+                        <i class="fas fa-check" aria-hidden="true"></i>
+                    </span>
+                {{ else }}
+                    {{ with $matches }}
+                        {{ $translation := index . 0 }}
+                        <a class="language-switcher__option" href="{{ $translation.RelPermalink }}" hreflang="{{ $language.Locale }}" lang="{{ $language.Locale }}" rel="alternate">
+                            {{ or $language.Label $language.Name }}
+                        </a>
+                    {{ else }}
+                        <span class="language-switcher__option is-unavailable" lang="{{ $language.Locale }}" aria-disabled="true" title="{{ $unavailableLabel }}">
+                            {{ or $language.Label $language.Name }}
+                            <span aria-hidden="true">—</span>
+                            <span class="sr-only">{{ $unavailableLabel }}</span>
+                        </span>
+                    {{ end }}
+                {{ end }}
+            </li>
+        {{ end }}
+    </ul>
+</details>

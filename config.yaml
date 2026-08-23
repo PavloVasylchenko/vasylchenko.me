@@ -38,11 +38,6 @@ languages:
           title: "Теги"
           url: /ua/tags/
           weight: -80
-        - identifier: english
-          name: "to English"
-          title: "to English"
-          url: /en/
-          weight: -70
     params:
       description: Персональна сторінка
       header_title: Павло Васильченко
@@ -96,12 +91,6 @@ languages:
           title: Tags
           url: /tags/
           weight: -80
-        - identifier: ukrainian
-          name: "Українською"
-          title: "Українською"
-          url: /ua/
-          weight: -70
-
     params:
       description: Personal Home Page
       header_title: Pavlo Vasylchenko
@@ -126,6 +115,5 @@ languages:
           href: 'https://medium.com/@vasylchenko'
         #- fa_icon: fab fa-telegram fa-1x
         #  href: 'https://t.me/pvvvvv'
-
 
 

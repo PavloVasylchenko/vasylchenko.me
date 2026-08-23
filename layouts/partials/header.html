@@ -1,0 +1,67 @@
+<header class="container mt-sm-5 mt-4 mb-4 mt-xs-1">
+    <div class="row">
+        {{ if isset .Site.Params "home_image" }}
+        <div class="col-sm-4 col-12 text-sm-right text-center pt-sm-4">
+            <a href="{{ .Site.Home.RelPermalink }}" class="text-decoration-none" aria-label="{{ .Site.Params.header_title }}">
+                <img id="home-image" class="rounded-circle"
+                    {{ if (and (isset .Site.Params "home_image") (fileExists (printf "static/%s" (strings.TrimPrefix "/" .Site.Params.home_image)))) }}
+                        {{ if hasPrefix .Site.Params.home_image "/" }}
+                            src="{{ .Site.Params.home_image }}"
+                        {{ else }}
+                            src="{{ printf "/%s" .Site.Params.home_image }}"
+                        {{ end }}
+                    {{ else }}
+                        src="/images/avatar.png"
+                    {{ end }}
+                    alt="{{ .Site.Params.header_title }}"
+                    width="120"
+                    height="120"
+                />
+            </a>
+        </div>
+        <div class="col-sm-8 col-12 text-sm-left text-center">
+        {{ else }}
+        <div class="col-12 text-center">
+        {{ end }}
+            <h2 class="m-0 mb-2 mt-4">
+                <a href="{{ .Site.Home.RelPermalink }}" class="text-decoration-none">
+                    {{ if isset .Site.Params "header_title" }}
+                        {{ .Site.Params.header_title }}
+                    {{ else }}
+                        Your Name
+                    {{ end }}
+                </a>
+            </h2>
+            <p class="text-muted mb-1">
+                {{ if isset .Site.Params "header_subtitle" }}
+                    {{ .Site.Params.header_subtitle }}
+                {{ else }}
+                    Your Creative Subtitle
+                {{ end }}
+            </p>
+            <div class="header-navigation-row">
+                <nav class="primary-navigation" aria-label="{{ i18n "mainNavigation" }}">
+                    <ul id="nav-links" class="list-inline mb-0">
+                        {{ $currentPage := . }}
+                        {{ range .Site.Menus.main }}
+                            <li class="list-inline-item">
+                                <a class="badge badge-white {{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}active{{end}}" href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
+                            </li>
+                        {{ end }}
+                    </ul>
+                </nav>
+                {{ partial "language-switcher.html" . }}
+            </div>
+            <ul id="nav-social" class="list-inline">
+                {{ range .Site.Params.social }}
+                    <li class="list-inline-item mr-3">
+                        <a href="{{ .href | safeURL }}" target="_blank" rel="noopener noreferrer">
+                            <i class="{{ .fa_icon }} text-muted"></i>
+                        </a>
+                    </li>
+                {{ end }}
+            </ul>
+        </div>
+    </div>
+    <hr />
+</header>
