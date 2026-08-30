@@ -1,3 +1,35 @@
+@font-face {
+  font-family: "iA Writer Duo";
+  src: url("/fonts/ia-writer-duo/iAWriterDuoS-Regular.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "iA Writer Duo";
+  src: url("/fonts/ia-writer-duo/iAWriterDuoS-Italic.woff2") format("woff2");
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "iA Writer Duo";
+  src: url("/fonts/ia-writer-duo/iAWriterDuoS-Bold.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "iA Writer Duo";
+  src: url("/fonts/ia-writer-duo/iAWriterDuoS-BoldItalic.woff2") format("woff2");
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+}
+
 .header-navigation-row {
   display: flex;
   align-items: center;
@@ -105,9 +137,18 @@ a.language-switcher__option:focus-visible {
 }
 
 article {
+  font-family: "iA Writer Duo", "IBM Plex Mono", monospace;
+  font-size: 1.05rem;
+  line-height: 1.65;
   min-width: 0;
   overflow-wrap: anywhere;
 }
+
+//article p {
+//  text-align: justify;
+//  text-justify: inter-word;
+//  hyphens: auto;
+//}
 
 article table {
   display: block;
